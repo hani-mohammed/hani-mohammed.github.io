@@ -1,0 +1,24 @@
+h1 {
+    color: inherit;
+    font-size: 30px;
+}
+
+body{
+    color: rgb(63, 214, 8) ;
+    background-color: rgb(20, 16, 10);
+}
+
+h1.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: rgb(241, 236, 236);
+}
+
+div.title{
+    font-size: 20px;
+    color: rgb(71, 240, 255);
+    background-color: rgb(91, 62, 187);
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px;
+}
