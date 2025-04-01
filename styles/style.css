@@ -5,7 +5,7 @@ h1 {
 
 body{
     color: purple ;
-    background-color: bisque;
+    background-color: rgb(209, 205, 199);
 }
 
 h1.title {
@@ -32,3 +32,33 @@ div.title{
     font-size: 20px;
     margin-top: 50px;
 }
+
+
+.mainMenu
+{
+
+    font-size: large;
+    border-radius: 5px;
+    background-color: aquamarine;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+}
+ul{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.flex-container{
+ display: flex;
+ flex-direction: row;
+ background-color: black;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
