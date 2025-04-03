@@ -62,3 +62,13 @@ ul{
       flex-direction: column;
     }
   }
+
+  button{
+    padding: 5px;
+    margin: 5px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    font-size: larger;
+  }
+
+  
